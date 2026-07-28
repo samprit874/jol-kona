@@ -2403,8 +2403,8 @@ body {
 /* Prevent horizontal overflow */
 .container {
   width: 100%;
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 /* ─── Mobile Navigation ─── */
@@ -2431,7 +2431,7 @@ body {
 @media (max-width: 768px) {
   .hero {
     min-height: auto;
-    padding: 100px 0 var(--space-2xl);
+    padding: 80px 0 32px;
   }
   
   .hero-content {
@@ -2469,13 +2469,12 @@ body {
 }
 
 /* ─── Mobile Section Spacing ─── */
-@media (max-width: 768px) {
   .section-padding {
-    padding: var(--space-2xl) 0;
+    padding: 40px 0;
   }
   
   .section-header {
-    margin-bottom: var(--space-xl);
+    margin-bottom: 20px;
   }
   
   .section-title {
@@ -2652,7 +2651,7 @@ body {
 /* ─── Mobile Story Section ─── */
 @media (max-width: 768px) {
   .story-content {
-    gap: var(--space-xl);
+    gap: 24px;
   }
   
   .story-image-main {
@@ -2662,7 +2661,9 @@ body {
   }
   
   .story-stats {
-    gap: var(--space-md);
+    gap: 12px;
+    margin-top: 20px;
+    padding-top: 20px;
   }
   
   .stat-number {
@@ -2682,7 +2683,7 @@ body {
   }
   
   .why-card {
-    padding: var(--space-lg) var(--space-md);
+    padding: 20px 14px;
   }
   
   .why-card-icon {
@@ -2710,7 +2711,7 @@ body {
 @media (max-width: 768px) {
   .occasions-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-sm);
+    gap: 6px;
   }
   
   .occasion-card {
